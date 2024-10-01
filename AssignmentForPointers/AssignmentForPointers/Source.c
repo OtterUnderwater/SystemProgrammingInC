@@ -38,7 +38,7 @@ void Task1()
 void Task2()
 {
 	int size = 1000000;
-	int* array = malloc(size * sizeof(int)); //создание массива из одного миллиона элементов
+	int* array = malloc(size * sizeof(int)); //массив из одного миллиона элементов
 	int* head = array; //сохранение головы
 	for (int i = 0; i < size; i++) {
 		*array++ = i;
@@ -77,10 +77,10 @@ void Task4()
 		for (int j = 0; j <= i; j++) {
 			*pointer++ = num++;
 		}
-		*matrix = pointer; //возврат головы
 	}
 	matrix = headMain;
 	//Вывод матрицы
+	headMain = matrix;
 	for (int i = 0; i < size; i++)
 	{
 		int* pointer = *matrix++;
@@ -90,26 +90,14 @@ void Task4()
 		}
 		printf("\n");
 	}
-}
-
-/// <summary>
-/// Реализация Task4 без головы
-/// </summary>
-void Task42()
-{
-	int size = 5;
-	int** matrix = (int**) malloc(size * sizeof(int*));
-	int num = 0;
-	for (int i = 0; i < size; i++)
-	{
-		*matrix = (int*) malloc((i + 1) * sizeof(int));
-		for (int j = 0; j <= i; j++)
-		{
-			*(matrix + j) = num++;
-			printf("%d ", *(matrix + j));
-		}
-		printf("\n");
+	matrix = headMain;
+	//Очистка
+	headMain = matrix;
+	for (int i = 0; i < size; i++) {
+		free(*matrix++);
 	}
+	matrix = headMain;
+	free(matrix);
 }
 
 int add(int a, int b) {

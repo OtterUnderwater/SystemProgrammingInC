@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\otter\\C\\IntroductionTask\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\IntroductionTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B634E8B-477A-43CF-883E-0FC6302F3C2A}|Project1\\Project1.vcxproj|D:\\otter\\C\\IntroductionTask\\Project1\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{6B634E8B-477A-43CF-883E-0FC6302F3C2A}|Project1\\Project1.vcxproj|C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\IntroductionTask\\Project1\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6B634E8B-477A-43CF-883E-0FC6302F3C2A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
-              "DocumentMoniker": "D:\\otter\\C\\IntroductionTask\\Project1\\Source.c",
+              "DocumentMoniker": "C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\IntroductionTask\\Project1\\Source.c",
               "RelativeDocumentMoniker": "Project1\\Source.c",
-              "ToolTip": "D:\\otter\\C\\IntroductionTask\\Project1\\Source.c",
+              "ToolTip": "C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\IntroductionTask\\Project1\\Source.c",
               "RelativeToolTip": "Project1\\Source.c",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAE4AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwIcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-16T12:20:09.874Z",
               "EditorCaption": ""

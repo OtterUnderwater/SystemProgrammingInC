@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\otter\\C\\AssignmentForPointers\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\AssignmentForPointers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C34E3DE-7E74-4C2F-A36B-A35452E34907}|AssignmentForPointers\\AssignmentForPointers.vcxproj|D:\\otter\\C\\AssignmentForPointers\\AssignmentForPointers\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1C34E3DE-7E74-4C2F-A36B-A35452E34907}|AssignmentForPointers\\AssignmentForPointers.vcxproj|C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\AssignmentForPointers\\AssignmentForPointers\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1C34E3DE-7E74-4C2F-A36B-A35452E34907}|AssignmentForPointers\\AssignmentForPointers.vcxproj|solutionrelative:AssignmentForPointers\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
-              "DocumentMoniker": "D:\\otter\\C\\AssignmentForPointers\\AssignmentForPointers\\Source.c",
+              "DocumentMoniker": "C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\AssignmentForPointers\\AssignmentForPointers\\Source.c",
               "RelativeDocumentMoniker": "AssignmentForPointers\\Source.c",
-              "ToolTip": "D:\\otter\\C\\AssignmentForPointers\\AssignmentForPointers\\Source.c",
+              "ToolTip": "C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\AssignmentForPointers\\AssignmentForPointers\\Source.c",
               "RelativeToolTip": "AssignmentForPointers\\Source.c",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAYwJIAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAowKUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-30T14:41:46.506Z",
               "EditorCaption": ""
