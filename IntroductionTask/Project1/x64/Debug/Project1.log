@@ -1,0 +1,6 @@
+﻿  Source.c
+D:\otter\C\IntroductionTask\Project1\Source.c(14,7): warning C4047: инициализация: "char" отличается по уровням косвенного обращения от "char [6]"
+D:\otter\C\IntroductionTask\Project1\Source.c(126,19): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+D:\otter\C\IntroductionTask\Project1\Source.c(21,1): warning C4172: возвращаемый адрес локальной переменной или временного : mass
+D:\otter\C\IntroductionTask\Project1\Source.c(64,1): warning C4716: QuadraticEquation: должна возвращать значение
+  Project1.vcxproj -> D:\otter\C\IntroductionTask\x64\Debug\Project1.exe
