@@ -1,2 +1,5 @@
 ﻿  Source.c
+D:\SystemProgrammingInC\LinearSinglyLinkedLists\LinearSinglyLinkedLists\Source.c(33,3): warning C4013: gets: нет определения; предполагается "extern" с возвратом типа "int"
+D:\SystemProgrammingInC\LinearSinglyLinkedLists\LinearSinglyLinkedLists\Source.c(72,7): warning C4047: инициализация: "int" отличается по уровням косвенного обращения от "char *"
+D:\SystemProgrammingInC\LinearSinglyLinkedLists\LinearSinglyLinkedLists\Source.c(90,7): warning C4047: инициализация: "int" отличается по уровням косвенного обращения от "char *"
   LinearSinglyLinkedLists.vcxproj -> D:\SystemProgrammingInC\LinearSinglyLinkedLists\x64\Debug\LinearSinglyLinkedLists.exe

@@ -8,7 +8,7 @@
 
 struct LinearList
 {
-	int id; //определитель
+	char* id; //определитель
 	struct LinearList* next;
 };
 typedef struct LinearList L;
@@ -21,15 +21,18 @@ typedef struct LinearList L;
 L* Create(int size)
 {
 	L* start = malloc(sizeof(L)); //голова, первый элемент
-	start->id = 0;
+	start->id = "Ёлемент0";
 	start->next = NULL;
 	//указатели на прошлый и следующий элемент, с их помощью измен€ем значени€
 	L* previousEl, *nextEl;
 	previousEl = start;
 	for (int i = 0; i < size - 1; i++)
 	{
+		printf("¬ведите %d элемент: ", i+1);
+		char* name = malloc(sizeof(char));
+		gets(name);
 		nextEl = malloc(sizeof(L));
-		nextEl->id = previousEl->id + 1;
+		nextEl->id = name;
 		previousEl->next = nextEl;
 		previousEl = nextEl;
 	}
@@ -47,7 +50,7 @@ void Show(L* list)
 	L* nextEl = list;
 	while (nextEl)
 	{
-		printf("%d ", nextEl->id);
+		printf("%s ", nextEl->id);
 		nextEl = nextEl->next;
 	}
 	printf("\n\n");
@@ -66,6 +69,8 @@ L* Insert(L* list, L item, int index)
 	if (index == 0) //начало списка
 	{
 		L* newItem = malloc(sizeof(L));
+		int N = item.id;
+		newItem->id = realloc(newItem->id, N * sizeof(char));
 		newItem->id = item.id;
 		newItem->next = start;
 		start = newItem;
@@ -82,6 +87,8 @@ L* Insert(L* list, L item, int index)
 			}
 		}
 		L* newItem = malloc(sizeof(L));
+		int N = item.id;
+		newItem->id = realloc(newItem->id, N * sizeof(char));
 		newItem->id = item.id;
 		newItem->next = list->next;
 		list->next = newItem;
@@ -222,25 +229,25 @@ void Delete(L* list)
 int main()
 {	
 	system("chcp 1251>nul");
-	L* list = Create(10);
+	L* list = Create(5);
 	Show(list);
 	Delete(list);
 
-	list = Create(10);
-	L item = { 20, NULL };
+	//list = Create(10);
+	L item = { "ћ€у", NULL };
 	list = Insert(list, item, 0);
 	Show(list);
-	Delete(list);
+	//Delete(list);
 
-	list = Create(10);
+	//list = Create(10);
 	list = DeleteItem(list, 0);
 	Show(list);
-	Delete(list);
+	//Delete(list);
 
-	list = Create(10);
+	//list = Create(10);
 	list = SwapItem(list, 0, 1);
 	Show(list);
-	Delete(list);
+	//Delete(list);
 
 	return 0;
 }
