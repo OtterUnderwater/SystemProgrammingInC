@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SystemProgrammingInC\\LinearSinglyLinkedLists\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5612312A-B76B-4E1F-B6E4-C1EEEDEA1AE2}|LinearSinglyLinkedLists\\LinearSinglyLinkedLists.vcxproj|D:\\SystemProgrammingInC\\LinearSinglyLinkedLists\\LinearSinglyLinkedLists\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5612312A-B76B-4E1F-B6E4-C1EEEDEA1AE2}|LinearSinglyLinkedLists\\LinearSinglyLinkedLists.vcxproj|solutionrelative:LinearSinglyLinkedLists\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.c",
+              "DocumentMoniker": "D:\\SystemProgrammingInC\\LinearSinglyLinkedLists\\LinearSinglyLinkedLists\\Source.c",
+              "RelativeDocumentMoniker": "LinearSinglyLinkedLists\\Source.c",
+              "ToolTip": "D:\\SystemProgrammingInC\\LinearSinglyLinkedLists\\LinearSinglyLinkedLists\\Source.c*",
+              "RelativeToolTip": "LinearSinglyLinkedLists\\Source.c*",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAYwPAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-07T12:16:26.649Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
