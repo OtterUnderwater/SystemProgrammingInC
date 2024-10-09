@@ -1,19 +1,19 @@
 ﻿  Source.c
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(27,17): warning C4047: =: "del" отличается по уровням косвенного обращения от "operation"
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(28,2): warning C4047: return: "del" отличается по уровням косвенного обращения от "del *"
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(25,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(40,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(58,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(74,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(106,30): warning C4047: функция: "del *" отличается по уровням косвенного обращения от "del"
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(106,30): warning C4024: AddFunToDelegate: различные типы для формального и фактического параметров 1
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(107,30): warning C4047: функция: "del *" отличается по уровням косвенного обращения от "del"
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(107,30): warning C4024: AddFunToDelegate: различные типы для формального и фактического параметров 1
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(108,30): warning C4047: функция: "del *" отличается по уровням косвенного обращения от "del"
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(108,30): warning C4024: AddFunToDelegate: различные типы для формального и фактического параметров 1
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(109,30): warning C4047: функция: "del *" отличается по уровням косвенного обращения от "del"
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(109,30): warning C4024: AddFunToDelegate: различные типы для формального и фактического параметров 1
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(110,30): warning C4047: функция: "del *" отличается по уровням косвенного обращения от "del"
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(110,30): warning C4024: AddFunToDelegate: различные типы для формального и фактического параметров 1
-C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(60,1): warning C4716: StartFunFromDelegate: должна возвращать значение
-  СreateDelegates.vcxproj -> C:\Users\токареваэо\source\repos\SystemProgrammingInC\СreateDelegates\x64\Debug\СreateDelegates.exe
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(27,17): warning C4047: =: "del" отличается по уровням косвенного обращения от "operation"
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(28,2): warning C4047: return: "del" отличается по уровням косвенного обращения от "del *"
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(25,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(40,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(58,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(74,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(106,30): warning C4047: функция: "del *" отличается по уровням косвенного обращения от "del"
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(106,30): warning C4024: AddFunToDelegate: различные типы для формального и фактического параметров 1
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(107,30): warning C4047: функция: "del *" отличается по уровням косвенного обращения от "del"
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(107,30): warning C4024: AddFunToDelegate: различные типы для формального и фактического параметров 1
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(108,30): warning C4047: функция: "del *" отличается по уровням косвенного обращения от "del"
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(108,30): warning C4024: AddFunToDelegate: различные типы для формального и фактического параметров 1
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(109,30): warning C4047: функция: "del *" отличается по уровням косвенного обращения от "del"
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(109,30): warning C4024: AddFunToDelegate: различные типы для формального и фактического параметров 1
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(110,30): warning C4047: функция: "del *" отличается по уровням косвенного обращения от "del"
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(110,30): warning C4024: AddFunToDelegate: различные типы для формального и фактического параметров 1
+D:\otter\C\SystemProgrammingInC\СreateDelegates\СreateDelegates\Source.c(60,1): warning C4716: StartFunFromDelegate: должна возвращать значение
+  СreateDelegates.vcxproj -> D:\otter\C\SystemProgrammingInC\СreateDelegates\x64\Debug\СreateDelegates.exe

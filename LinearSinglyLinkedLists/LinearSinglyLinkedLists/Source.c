@@ -66,11 +66,9 @@ void Show(L* list)
 L* Insert(L* list, L item, int index)
 {
 	L* start = list; //запоминаем голову списка
+	L* newItem = malloc(sizeof(L));
 	if (index == 0) //начало списка
 	{
-		L* newItem = malloc(sizeof(L));
-		int N = item.id;
-		newItem->id = realloc(newItem->id, N * sizeof(char));
 		newItem->id = item.id;
 		newItem->next = start;
 		start = newItem;
@@ -86,9 +84,6 @@ L* Insert(L* list, L item, int index)
 				break;
 			}
 		}
-		L* newItem = malloc(sizeof(L));
-		int N = item.id;
-		newItem->id = realloc(newItem->id, N * sizeof(char));
 		newItem->id = item.id;
 		newItem->next = list->next;
 		list->next = newItem;
@@ -233,21 +228,21 @@ int main()
 	Show(list);
 	Delete(list);
 
-	//list = Create(10);
+	list = Create(5);
 	L item = { "ћ€у", NULL };
 	list = Insert(list, item, 0);
 	Show(list);
-	//Delete(list);
+	Delete(list);
 
-	//list = Create(10);
+	list = Create(5);
 	list = DeleteItem(list, 0);
 	Show(list);
-	//Delete(list);
+	Delete(list);
 
-	//list = Create(10);
+	list = Create(5);
 	list = SwapItem(list, 0, 1);
 	Show(list);
-	//Delete(list);
+	Delete(list);
 
 	return 0;
 }

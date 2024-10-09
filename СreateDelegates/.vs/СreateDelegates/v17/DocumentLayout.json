@@ -1,10 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SystemProgrammingInC\\\u0421reateDelegates\\",
+  "WorkspaceRootPath": "D:\\otter\\C\\SystemProgrammingInC\\\u0421reateDelegates\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4B7B4B7-3093-4387-93F6-E337A01A88AC}|\u0421reateDelegates\\\u0421reateDelegates.vcxproj|D:\\SystemProgrammingInC\\\u0421reateDelegates\\\u0421reateDelegates\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F4B7B4B7-3093-4387-93F6-E337A01A88AC}|\u0421reateDelegates\\\u0421reateDelegates.vcxproj|D:\\otter\\C\\SystemProgrammingInC\\\u0421reateDelegates\\\u0421reateDelegates\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F4B7B4B7-3093-4387-93F6-E337A01A88AC}|\u0421reateDelegates\\\u0421reateDelegates.vcxproj|solutionrelative:\u0421reateDelegates\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +17,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "stdio.h",
+              "DocumentMoniker": "D:\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
+              "ToolTip": "D:\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
+              "RelativeToolTip": "..\\..\\..\\..\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
+              "ViewState": "AgIAAHgCAAAAAAAAAAAwwIUCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-07T18:26:41.319Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
-              "DocumentMoniker": "D:\\SystemProgrammingInC\\\u0421reateDelegates\\\u0421reateDelegates\\Source.c",
+              "DocumentMoniker": "D:\\otter\\C\\SystemProgrammingInC\\\u0421reateDelegates\\\u0421reateDelegates\\Source.c",
               "RelativeDocumentMoniker": "\u0421reateDelegates\\Source.c",
-              "ToolTip": "D:\\SystemProgrammingInC\\\u0421reateDelegates\\\u0421reateDelegates\\Source.c",
+              "ToolTip": "D:\\otter\\C\\SystemProgrammingInC\\\u0421reateDelegates\\\u0421reateDelegates\\Source.c",
               "RelativeToolTip": "\u0421reateDelegates\\Source.c",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAYwHcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwCsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-01T09:12:49.576Z",
               "EditorCaption": ""

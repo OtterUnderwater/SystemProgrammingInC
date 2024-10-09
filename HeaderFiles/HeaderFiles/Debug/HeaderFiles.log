@@ -1,0 +1,4 @@
+﻿  Sourse.c
+D:\otter\C\SystemProgrammingInC\HeaderFiles\HeaderFiles\Sourse.c(8,12): warning C4101: n2: неиспользованная локальная переменная
+D:\otter\C\SystemProgrammingInC\HeaderFiles\HeaderFiles\Sourse.c(8,8): warning C4101: n1: неиспользованная локальная переменная
+  HeaderFiles.vcxproj -> D:\otter\C\SystemProgrammingInC\HeaderFiles\Debug\HeaderFiles.exe

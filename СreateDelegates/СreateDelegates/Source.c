@@ -42,7 +42,7 @@ del RemoveFunFromDelegate(del delegate, int index)
 	{
 		delegate[i] = delegate[i + 1];
 	}
-	delegate = realloc(delegate, (size - 1) * sizeof(operation));
+	delegate = realloc(delegate, ((size) - 1) * sizeof(operation));
 	return delegate;
 }
 
