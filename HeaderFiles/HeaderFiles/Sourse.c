@@ -16,7 +16,9 @@ int main()
 	char* combinedString = StringConcatenation(str1, str2);
 	printf("%s\n", combinedString);
 
-    char* str = FloatToString(12345678.44);
+    int accuracy = 4;
+    double fnumber = 1234567.44;
+    char* str = DoubleToString(fnumber, accuracy);
     printf("%s\n", str);
 
     float num = StringToFloat("-50555.44");
@@ -25,35 +27,65 @@ int main()
 	return 0;
 }
 
-//char* FloatToString(float number)
-//{
-//   char* buffer = malloc(100 * sizeof(char));
-//   snprintf(buffer, 100, "%f", number);
-//   return buffer;
-//}
-
-char* FloatToString(float number) {
-   // char sign = (number < 0) ? '-' : '+';
-    //number = fabs(number);
-
-    char* buffer = malloc(0 * sizeof(char));
-    int count = 0;
+/// <summary>
+///  онвертаци€ числа в строку
+/// </summary>
+/// <param name="number"></param>
+/// <param name="accuracy">округл€ть до скольки знаков после зап€той</param>
+/// <returns></returns>
+char* DoubleToString(double number, int accuracy)
+{
+    int size = 0;
     int intBuffer = (int) number;
     int intBuffer2 = (int) number;
-    while (intBuffer2 > 0) {
+    while (intBuffer2 > 0)
+    {
         intBuffer2 = intBuffer2 / 10;
-        count++;
+        size++;
     }
-    int i = 1;
-    while (count > 0) {
-        int n = intBuffer / pow(10, count-1);
-        intBuffer = intBuffer - (n * pow(10, count-1));
-        buffer = realloc(buffer, i * sizeof(char));
-        buffer[i-1] = n;
-        count--;
+    char* buffer = malloc(size * sizeof(char));
+    snprintf(buffer, size, "%d", intBuffer);
+    char* buffer2 = malloc(0 * sizeof(char));
+    int size2 = 0;
+    double ostdouble = number - intBuffer;
+    if (ostdouble > 0)
+    {
+        int ost = ostdouble * pow(10, accuracy);
+        buffer2 = realloc(buffer2, accuracy * sizeof(char));
+        snprintf(buffer2, accuracy, "%d", ost);
+        size2 = accuracy + 1; //дл€ знака .
+    }
+    int sizeAnswer = size + size2;
+    char* answer = malloc(sizeAnswer * sizeof(char));
+    int i = 0;
+    if (number < 0)
+    {
+        sizeAnswer++;
+        answer = realloc(answer, sizeAnswer * sizeof(char));
+        answer[i] = '-';
         i++;
     }
-    return buffer;
+    else
+    {
+        while (i < sizeAnswer)
+        {
+            for (int j = 0; j < size; j++)
+            {
+                answer[i] = '0' + buffer[j];
+                i++;
+            }
+            if (size2 > 0)
+            {
+                answer[i] = '.'; i++;
+                for (int j = 0; j < size2; j++)
+                {
+                    answer[i] = '0' + buffer2[j];
+                    i++;
+                }
+            }
+        }
+    }
+    return answer;
 }
 
 
