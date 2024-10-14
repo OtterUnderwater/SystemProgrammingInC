@@ -1,5 +1,5 @@
 ﻿  Source.c
-D:\SystemProgrammingInC\PreprocessorDirectives\PreprocessorDirectives\Source.c(26,12): warning C4244: return: преобразование "double" в "float", возможна потеря данных
-D:\SystemProgrammingInC\PreprocessorDirectives\PreprocessorDirectives\Source.c(46,19): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-D:\SystemProgrammingInC\PreprocessorDirectives\PreprocessorDirectives\Source.c(71,5): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
-  PreprocessorDirectives.vcxproj -> D:\SystemProgrammingInC\PreprocessorDirectives\x64\Debug\PreprocessorDirectives.exe
+C:\Users\токареваэо\source\repos\SystemProgrammingInC\PreprocessorDirectives\PreprocessorDirectives\Source.c(26,12): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\токареваэо\source\repos\SystemProgrammingInC\PreprocessorDirectives\PreprocessorDirectives\Source.c(45,19): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\токареваэо\source\repos\SystemProgrammingInC\PreprocessorDirectives\PreprocessorDirectives\Source.c(65,5): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+  PreprocessorDirectives.vcxproj -> C:\Users\токареваэо\source\repos\SystemProgrammingInC\PreprocessorDirectives\x64\Debug\PreprocessorDirectives.exe

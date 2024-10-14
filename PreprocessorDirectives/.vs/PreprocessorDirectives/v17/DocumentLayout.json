@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SystemProgrammingInC\\PreprocessorDirectives\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\PreprocessorDirectives\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B6ECE0D-A1F4-4697-AE89-8EBA867E1672}|PreprocessorDirectives\\PreprocessorDirectives.vcxproj|D:\\SystemProgrammingInC\\PreprocessorDirectives\\PreprocessorDirectives\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1B6ECE0D-A1F4-4697-AE89-8EBA867E1672}|PreprocessorDirectives\\PreprocessorDirectives.vcxproj|C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\PreprocessorDirectives\\PreprocessorDirectives\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1B6ECE0D-A1F4-4697-AE89-8EBA867E1672}|PreprocessorDirectives\\PreprocessorDirectives.vcxproj|solutionrelative:PreprocessorDirectives\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
-              "DocumentMoniker": "D:\\SystemProgrammingInC\\PreprocessorDirectives\\PreprocessorDirectives\\Source.c",
+              "DocumentMoniker": "C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\PreprocessorDirectives\\PreprocessorDirectives\\Source.c",
               "RelativeDocumentMoniker": "PreprocessorDirectives\\Source.c",
-              "ToolTip": "D:\\SystemProgrammingInC\\PreprocessorDirectives\\PreprocessorDirectives\\Source.c",
+              "ToolTip": "C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\PreprocessorDirectives\\PreprocessorDirectives\\Source.c",
               "RelativeToolTip": "PreprocessorDirectives\\Source.c",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADYAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-13T13:10:51.174Z",
               "EditorCaption": ""

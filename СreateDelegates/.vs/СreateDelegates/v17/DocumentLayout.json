@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\otter\\C\\SystemProgrammingInC\\\u0421reateDelegates\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\\u0421reateDelegates\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4B7B4B7-3093-4387-93F6-E337A01A88AC}|\u0421reateDelegates\\\u0421reateDelegates.vcxproj|D:\\otter\\C\\SystemProgrammingInC\\\u0421reateDelegates\\\u0421reateDelegates\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F4B7B4B7-3093-4387-93F6-E337A01A88AC}|\u0421reateDelegates\\\u0421reateDelegates.vcxproj|C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\\u0421reateDelegates\\\u0421reateDelegates\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F4B7B4B7-3093-4387-93F6-E337A01A88AC}|\u0421reateDelegates\\\u0421reateDelegates.vcxproj|solutionrelative:\u0421reateDelegates\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -24,26 +24,27 @@
               "DocumentIndex": 1,
               "Title": "stdio.h",
               "DocumentMoniker": "D:\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
               "ToolTip": "D:\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "RelativeToolTip": "..\\..\\..\\..\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
               "ViewState": "AgIAAHgCAAAAAAAAAAAwwIUCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-07T18:26:41.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T18:26:41.319Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
-              "DocumentMoniker": "D:\\otter\\C\\SystemProgrammingInC\\\u0421reateDelegates\\\u0421reateDelegates\\Source.c",
+              "DocumentMoniker": "C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\\u0421reateDelegates\\\u0421reateDelegates\\Source.c",
               "RelativeDocumentMoniker": "\u0421reateDelegates\\Source.c",
-              "ToolTip": "D:\\otter\\C\\SystemProgrammingInC\\\u0421reateDelegates\\\u0421reateDelegates\\Source.c",
+              "ToolTip": "C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\\u0421reateDelegates\\\u0421reateDelegates\\Source.c",
               "RelativeToolTip": "\u0421reateDelegates\\Source.c",
               "ViewState": "AgIAAAoAAAAAAAAAAAAwwCsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-01T09:12:49.576Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
