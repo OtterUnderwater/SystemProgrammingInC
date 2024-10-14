@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\otter\\C\\SystemProgrammingInC\\HeaderFiles\\",
+  "WorkspaceRootPath": "D:\\SystemProgrammingInC\\HeaderFiles\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EACF3108-B5C1-4B77-A8EE-A61CF8B574AB}|HeaderFiles\\HeaderFiles.vcxproj|D:\\otter\\C\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Sourse.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{EACF3108-B5C1-4B77-A8EE-A61CF8B574AB}|HeaderFiles\\HeaderFiles.vcxproj|D:\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Sourse.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EACF3108-B5C1-4B77-A8EE-A61CF8B574AB}|HeaderFiles\\HeaderFiles.vcxproj|solutionrelative:HeaderFiles\\Sourse.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EACF3108-B5C1-4B77-A8EE-A61CF8B574AB}|HeaderFiles\\HeaderFiles.vcxproj|D:\\otter\\C\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EACF3108-B5C1-4B77-A8EE-A61CF8B574AB}|HeaderFiles\\HeaderFiles.vcxproj|solutionrelative:HeaderFiles\\Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EACF3108-B5C1-4B77-A8EE-A61CF8B574AB}|HeaderFiles\\HeaderFiles.vcxproj|D:\\otter\\C\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Header2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EACF3108-B5C1-4B77-A8EE-A61CF8B574AB}|HeaderFiles\\HeaderFiles.vcxproj|solutionrelative:HeaderFiles\\Header2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Header2.h",
-              "DocumentMoniker": "D:\\otter\\C\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Header2.h",
-              "RelativeDocumentMoniker": "HeaderFiles\\Header2.h",
-              "ToolTip": "D:\\otter\\C\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Header2.h",
-              "RelativeToolTip": "HeaderFiles\\Header2.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-13T12:07:19.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Header.h",
-              "DocumentMoniker": "D:\\otter\\C\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Header.h",
-              "RelativeDocumentMoniker": "HeaderFiles\\Header.h",
-              "ToolTip": "D:\\otter\\C\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Header.h",
-              "RelativeToolTip": "HeaderFiles\\Header.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-13T12:06:45.788Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Sourse.c",
-              "DocumentMoniker": "D:\\otter\\C\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Sourse.c",
+              "DocumentMoniker": "D:\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Sourse.c",
               "RelativeDocumentMoniker": "HeaderFiles\\Sourse.c",
-              "ToolTip": "D:\\otter\\C\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Sourse.c",
+              "ToolTip": "D:\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Sourse.c",
               "RelativeToolTip": "HeaderFiles\\Sourse.c",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-09T19:07:11.148Z",
               "EditorCaption": ""

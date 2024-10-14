@@ -1,11 +1,11 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define POW(x) (x)*(x) //макрос возводит число во вторую степень
-#define X1 1
-#define Y1 2
-#define X2 3
-#define Y2 5
-#define X3 X2
-#define Y3 Y1
+#define X1 0
+#define Y1 0
+#define X2 0
+#define Y2 0
+#define X3 0
+#define Y3 0
 #define A sqrt(POW(X3 - X1) + POW(Y3 - Y1))
 #define B sqrt(POW(X3 - X2) + POW(Y3 - Y2))
 #define C sqrt(POW(X2 - X1) + POW(Y2 - Y1))
@@ -41,9 +41,9 @@ void GetPerimeterAndSquare(float x1, float y1, float x2, float y2)
     float c = GetLengthSegment(x1, y1, x2, y2);
     if ((a + b > c) && (b + c > a) && (a + c > b))
     {
-        float P = A + B + C;
+        float P = a + b + c;
         float p = P / 2;
-        float S = sqrt(p * (p - A) * (p - B) * (p - C));
+        float S = sqrt(p * (p - a) * (p - b) * (p - c));
         printf("Треугольник существует, периметр: %.2f, площадь: %.2f\n", P, S);
     }
     else printf("Треугольник не существует");
@@ -51,12 +51,8 @@ void GetPerimeterAndSquare(float x1, float y1, float x2, float y2)
 
 void GetPerimeterAndSquare2()
 {
-#if A + B <= C
-    printf("Треугольник не существует!\n");
-#elif A + C <= B
-    printf("Треугольник не существует!\n");
-#elif B + C <= A
-    printf("Треугольник не существует!\n");
+#if ((X2 - X1) * (Y2 - Y1) == (X3 - X1)* (Y3 - Y1))
+    printf("Треугольник не существует\n");
 #else
     float P = A + B + C;
     float p = P / 2;
@@ -68,7 +64,7 @@ void GetPerimeterAndSquare2()
 int main()
 {
     system("chcp 1251>nul");
-    GetPerimeterAndSquare(1, 2, 3, 5);
+   //GetPerimeterAndSquare(1, 2, 3, 5);
     GetPerimeterAndSquare2();
     return 0;
 }

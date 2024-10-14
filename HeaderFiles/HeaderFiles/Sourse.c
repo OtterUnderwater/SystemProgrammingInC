@@ -16,40 +16,83 @@ int main()
 	char* combinedString = StringConcatenation(str1, str2);
 	printf("%s\n", combinedString);
 
-    char* str = IntToString(1000000000);
+    char* str = FloatToString(12345678.44);
     printf("%s\n", str);
 
-    int num = StringToInt("-505400");
-    printf("%d\n", num);
+    float num = StringToFloat("-50555.44");
+    printf("%f\n", num);
 
 	return 0;
 }
 
-char* IntToString(int number)
-{
-   char* buffer = malloc(100 * sizeof(char));
-   snprintf(buffer, 100, "%d", number);
-   return buffer;
+//char* FloatToString(float number)
+//{
+//   char* buffer = malloc(100 * sizeof(char));
+//   snprintf(buffer, 100, "%f", number);
+//   return buffer;
+//}
+
+char* FloatToString(float number) {
+   // char sign = (number < 0) ? '-' : '+';
+    //number = fabs(number);
+
+    char* buffer = malloc(0 * sizeof(char));
+    int count = 0;
+    int intBuffer = (int) number;
+    int intBuffer2 = (int) number;
+    while (intBuffer2 > 0) {
+        intBuffer2 = intBuffer2 / 10;
+        count++;
+    }
+    int i = 1;
+    while (count > 0) {
+        int n = intBuffer / pow(10, count-1);
+        intBuffer = intBuffer - (n * pow(10, count-1));
+        buffer = realloc(buffer, i * sizeof(char));
+        buffer[i-1] = n;
+        count--;
+        i++;
+    }
+    return buffer;
 }
 
-int StringToInt(char* str)
+
+float StringToFloat(char* str)
 {
-    /*int number = 0;
-    int sign = 1;
+    float number = 0;
+    float sign = 1;
     int i = 0;
     if (str[0] == '-') {
         sign = -1;
         i++;
     }
     while (str[i] != '\0') {
-        if (str[i] < '0' || str[i] > '9') {
+        if ((str[i] >= '0' && str[i] <= '9') || (str[i] == '.'))
+        {
+            if (str[i] == '.')
+            {
+                i++; 
+                int d = 1;
+                while (str[i] != '\0') {
+                    float del = pow(10, d);
+                    float f = (str[i] - '0') / del;
+                    number = number + f;
+                    i++;
+                    d++;
+                }
+                break;
+            }
+            else
+            {
+                number = number * 10 + (str[i] - '0');
+                i++;
+            }
+        }
+        else
+        {
             printf("Некорректный формат строки!\n");
             return 0;
         }
-        number = number * 10 + (str[i] - '0');
-        i++;
     }
-    //return number * sign;
-    */
-    return atof(str);
+    return number * sign;
 }

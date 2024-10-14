@@ -7,8 +7,8 @@ float Subtract(float, float);
 float Myltiply(float, float);
 float Divide(float, float);
 char* StringConcatenation(char*, char*);
-char* IntToString(int);
-int StringToInt(char*);
+char* FloatToString(float);
+float StringToFloat(char*);
 
 //Функции
 float Add(float n1, float n2)

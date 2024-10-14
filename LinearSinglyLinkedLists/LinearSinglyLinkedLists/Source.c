@@ -226,20 +226,14 @@ int main()
 	system("chcp 1251>nul");
 	L* list = Create(5);
 	Show(list);
-	Delete(list);
 
-	list = Create(5);
 	L item = { "Ìÿó", NULL };
 	list = Insert(list, item, 0);
 	Show(list);
-	Delete(list);
 
-	list = Create(5);
 	list = DeleteItem(list, 0);
 	Show(list);
-	Delete(list);
 
-	list = Create(5);
 	list = SwapItem(list, 0, 1);
 	Show(list);
 	Delete(list);
