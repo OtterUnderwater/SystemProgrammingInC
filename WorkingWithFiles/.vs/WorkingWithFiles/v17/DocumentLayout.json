@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SystemProgrammingInC\\WorkingWithFiles\\",
+  "WorkspaceRootPath": "D:\\otter\\C\\SystemProgrammingInC\\WorkingWithFiles\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0A5B0EF-D1D0-4978-8464-2A43030C6790}|WorkingWithFiles\\WorkingWithFiles.vcxproj|D:\\SystemProgrammingInC\\WorkingWithFiles\\WorkingWithFiles\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E0A5B0EF-D1D0-4978-8464-2A43030C6790}|WorkingWithFiles\\WorkingWithFiles.vcxproj|solutionrelative:WorkingWithFiles\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\otter\\C\\SystemProgrammingInC\\WorkingWithFiles\\WorkingWithFiles\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WorkingWithFiles\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,9 +20,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
-              "DocumentMoniker": "D:\\SystemProgrammingInC\\WorkingWithFiles\\WorkingWithFiles\\Source.c",
+              "DocumentMoniker": "D:\\otter\\C\\SystemProgrammingInC\\WorkingWithFiles\\WorkingWithFiles\\Source.c",
               "RelativeDocumentMoniker": "WorkingWithFiles\\Source.c",
-              "ToolTip": "D:\\SystemProgrammingInC\\WorkingWithFiles\\WorkingWithFiles\\Source.c",
+              "ToolTip": "D:\\otter\\C\\SystemProgrammingInC\\WorkingWithFiles\\WorkingWithFiles\\Source.c",
               "RelativeToolTip": "WorkingWithFiles\\Source.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",

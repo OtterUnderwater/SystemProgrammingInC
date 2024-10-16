@@ -8,7 +8,7 @@ float Myltiply(float, float);
 float Divide(float, float);
 char* StringConcatenation(char*, char*);
 char* DoubleToString(double number, int accuracy);
-float StringToFloat(char*);
+double StringToDouble(char*);
 
 //Функции
 float Add(float n1, float n2)

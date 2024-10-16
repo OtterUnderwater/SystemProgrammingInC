@@ -17,11 +17,11 @@ int main()
 	printf("%s\n", combinedString);
 
     int accuracy = 4;
-    double fnumber = 1234567.44;
+    double fnumber = -123456.44;
     char* str = DoubleToString(fnumber, accuracy);
     printf("%s\n", str);
 
-    float num = StringToFloat("-50555.44");
+    float num = StringToDouble("-50555.44");
     printf("%f\n", num);
 
 	return 0;
@@ -35,16 +35,26 @@ int main()
 /// <returns></returns>
 char* DoubleToString(double number, int accuracy)
 {
+    int sizeAnswer = 0;
     int size = 0;
-    int intBuffer = (int) number;
-    int intBuffer2 = (int) number;
+    char* answer = malloc(sizeAnswer * sizeof(char));
+    int i = 0;
+    if (number < 0)
+    {
+        sizeAnswer++;
+        answer = realloc(answer, sizeAnswer * sizeof(char));
+        answer[i] = '-'; i++;
+        number = number * -1;
+    }
+    int intBuffer = (int)number;
+    int intBuffer2 = (int)number;
     while (intBuffer2 > 0)
     {
         intBuffer2 = intBuffer2 / 10;
         size++;
     }
     char* buffer = malloc(size * sizeof(char));
-    snprintf(buffer, size, "%d", intBuffer);
+    snprintf(buffer, size + 1, "%d", intBuffer);
     char* buffer2 = malloc(0 * sizeof(char));
     int size2 = 0;
     double ostdouble = number - intBuffer;
@@ -52,47 +62,39 @@ char* DoubleToString(double number, int accuracy)
     {
         int ost = ostdouble * pow(10, accuracy);
         buffer2 = realloc(buffer2, accuracy * sizeof(char));
-        snprintf(buffer2, accuracy, "%d", ost);
-        size2 = accuracy + 1; //для знака .
+        snprintf(buffer2, accuracy + 1, "%d", ost);
+        size2 = accuracy + 1; //для знака
     }
-    int sizeAnswer = size + size2;
-    char* answer = malloc(sizeAnswer * sizeof(char));
-    int i = 0;
-    if (number < 0)
+    sizeAnswer += size + size2;
+    while (i < sizeAnswer)
     {
-        sizeAnswer++;
-        answer = realloc(answer, sizeAnswer * sizeof(char));
-        answer[i] = '-';
-        i++;
-    }
-    else
-    {
-        while (i < sizeAnswer)
+        for (int j = 0; j < size; j++)
         {
-            for (int j = 0; j < size; j++)
+            answer[i] = buffer[j];
+            i++;
+        }
+        if (size2 > 0)
+        {
+            answer[i] = '.'; i++;
+            for (int j = 0; j < size2; j++)
             {
-                answer[i] = '0' + buffer[j];
+                answer[i] = buffer2[j];
                 i++;
-            }
-            if (size2 > 0)
-            {
-                answer[i] = '.'; i++;
-                for (int j = 0; j < size2; j++)
-                {
-                    answer[i] = '0' + buffer2[j];
-                    i++;
-                }
             }
         }
     }
     return answer;
 }
 
-
-float StringToFloat(char* str)
+/// <summary>
+/// Конвертер строки в число
+/// </summary>
+/// <param name="str"></param>
+/// <returns></returns>
+double StringToDouble(char* str)
 {
-    float number = 0;
-    float sign = 1;
+    double number = 0;
+    int sign = 1;
     int i = 0;
     if (str[0] == '-') {
         sign = -1;
@@ -106,8 +108,8 @@ float StringToFloat(char* str)
                 i++; 
                 int d = 1;
                 while (str[i] != '\0') {
-                    float del = pow(10, d);
-                    float f = (str[i] - '0') / del;
+                    double del = pow(10, d);
+                    double f = (str[i] - '0') / del;
                     number = number + f;
                     i++;
                     d++;

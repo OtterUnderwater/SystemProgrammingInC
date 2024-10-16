@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\HeaderFiles\\",
+  "WorkspaceRootPath": "D:\\otter\\C\\SystemProgrammingInC\\HeaderFiles\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EACF3108-B5C1-4B77-A8EE-A61CF8B574AB}|HeaderFiles\\HeaderFiles.vcxproj|C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Sourse.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{EACF3108-B5C1-4B77-A8EE-A61CF8B574AB}|HeaderFiles\\HeaderFiles.vcxproj|D:\\otter\\C\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Sourse.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EACF3108-B5C1-4B77-A8EE-A61CF8B574AB}|HeaderFiles\\HeaderFiles.vcxproj|solutionrelative:HeaderFiles\\Sourse.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Sourse.c",
-              "DocumentMoniker": "C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Sourse.c",
+              "DocumentMoniker": "D:\\otter\\C\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Sourse.c",
               "RelativeDocumentMoniker": "HeaderFiles\\Sourse.c",
-              "ToolTip": "C:\\Users\\\u0442\u043E\u043A\u0430\u0440\u0435\u0432\u0430\u044D\u043E\\source\\repos\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Sourse.c",
+              "ToolTip": "D:\\otter\\C\\SystemProgrammingInC\\HeaderFiles\\HeaderFiles\\Sourse.c",
               "RelativeToolTip": "HeaderFiles\\Sourse.c",
-              "ViewState": "AgIAADgAAAAAAAAAAAAiwFEAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-09T19:07:11.148Z",
+              "WhenOpened": "2024-10-16T15:13:34.78Z",
               "EditorCaption": ""
             }
           ]
