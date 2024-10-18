@@ -1,10 +1,10 @@
 ﻿  Sourse.c
-D:\otter\C\SystemProgrammingInC\HeaderFiles\HeaderFiles\Header2.h(34,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\SystemProgrammingInC\HeaderFiles\HeaderFiles\Header2.h(34,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
   (компиляция исходного файла "Sourse.c")
   
-D:\otter\C\SystemProgrammingInC\HeaderFiles\HeaderFiles\Header2.h(35,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\SystemProgrammingInC\HeaderFiles\HeaderFiles\Header2.h(35,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
   (компиляция исходного файла "Sourse.c")
   
-D:\otter\C\SystemProgrammingInC\HeaderFiles\HeaderFiles\Sourse.c(24,17): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-D:\otter\C\SystemProgrammingInC\HeaderFiles\HeaderFiles\Sourse.c(63,29): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-  HeaderFiles.vcxproj -> D:\otter\C\SystemProgrammingInC\HeaderFiles\x64\Debug\HeaderFiles.exe
+D:\SystemProgrammingInC\HeaderFiles\HeaderFiles\Sourse.c(24,17): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\SystemProgrammingInC\HeaderFiles\HeaderFiles\Sourse.c(63,29): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  HeaderFiles.vcxproj -> D:\SystemProgrammingInC\HeaderFiles\x64\Debug\HeaderFiles.exe

@@ -1,0 +1,3 @@
+﻿  Source.c
+D:\SystemProgrammingInC\WorkingWithFiles\WorkingWithFiles\Source.c(62,26): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  WorkingWithFiles.vcxproj -> D:\SystemProgrammingInC\WorkingWithFiles\x64\Debug\WorkingWithFiles.exe
